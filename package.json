@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "report": "npx newman run https://www.getpostman.com/collections/62f5e98bb1ebb5376b20 -e ./My-Remote-API-Testing.postman_environment.json -r htmlextra"
   },
   "keywords": [],
   "author": "",
